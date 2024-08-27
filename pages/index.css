@@ -15,11 +15,10 @@
   max-height: 800px;
   height: 100vh;
   box-sizing: border-box;
-
-  /*background-image: url("favorite icon.ico");
+  background-image: url("favorite icon.ico");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;*/
+  background-size: cover;
 }
 
 .nav {
