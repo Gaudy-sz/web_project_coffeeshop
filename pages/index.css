@@ -95,7 +95,9 @@
 .header__footer {
   margin-top: auto;
   width: 100%;
-  justify-content: space-between;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
 }
 
 .header__paragraph {
@@ -104,6 +106,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  list-style-type: none;
 }
 
 .recipes {
@@ -139,18 +142,20 @@
 }
 
 .recipes__videos {
-  width: 480px;
-  height: 274px;
   margin-bottom: 215px;
   list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
 }
 
 .recipes__videos-item {
-  gap: 40px;
-  margin-bottom: 24px;
+  height: 480px;
+  width: 273px;
 }
 
 .recipes__video-caption {
+  display: flex;
   justify-content: space-between;
   font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
