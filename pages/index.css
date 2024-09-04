@@ -194,6 +194,9 @@
 .form__input {
   border-radius: 4px;
   height: 60px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px 20px 15px 20px;
 }
 
 .reservation__title {
