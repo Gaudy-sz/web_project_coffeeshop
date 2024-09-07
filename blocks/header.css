@@ -1,6 +1,16 @@
 .header {
   display: flex;
+  position: relative;
   flex-direction: column;
+  min-height: 720px;
+  max-height: 800px;
+  height: 100vh;
+  box-sizing: border-box;
+  padding: 30px 80px 40px;
+  background-image: url("../images/background_header.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .header__content {
