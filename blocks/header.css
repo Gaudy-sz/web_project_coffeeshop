@@ -27,6 +27,14 @@
   max-width: 709px;
 }
 
+.span-accent {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: italic;
+  font-size: 58px;
+  line-height: 72px;
+  color: #2f80ed;
+}
+
 .header__description {
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
